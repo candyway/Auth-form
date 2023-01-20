@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 600px;
+    height:600px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 40px;
+}
+
+.title{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.txt{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(81, 80, 80);
+}
+.top{
+    margin-bottom: 30px;
+}
+
+.main2{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.input{
+    display: block;
+    width: 240px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+
+button{
+    padding: 10px 150px;
+    border-radius: 0;
+    background-color: rgb(22, 126, 195);
+    border: none;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: rgb(16, 87, 135);
+    color: white;
+}
+
+.mar{
+    margin-top: 15px;
+}
+
+.mar2{
+    margin-top: 25px;
+}
+
